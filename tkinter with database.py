@@ -3,10 +3,10 @@ from tkinter import messagebox
 import mysql.connector as mysql
 
 def showLastinfo():
-    db = mysql.connect(host = "localhost", user = "Prabhat", passwd = "151103")
+    db = mysql.connect(host = "hostname", user = "username", passwd = "password")
     cursor = db.cursor()
-    cursor.execute("use prabhat")
-    insrt = "Insert into skills values('"+fname.get()+"','"+lname.get()+"','"+age.get()+"','"+income.get()+"')"
+    cursor.execute("use databasename")
+    insrt = "Insert into tablename values('"+fname.get()+"','"+lname.get()+"','"+age.get()+"','"+income.get()+"')"
     cursor.execute(insrt)
     db.commit()
 
