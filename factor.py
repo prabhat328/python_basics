@@ -9,7 +9,6 @@ def factor(p):
 
 a = int(input('Enter an integer:\n\t'))
 print(factor(a))
-# if print is not used, return statement won't work
 
 def addition():
     a = 10
