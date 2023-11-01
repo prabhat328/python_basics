@@ -1,3 +1,6 @@
+# Strong no. is a number where sum of factorial of every digit of the number returns the number itself
+# eg: 1, 2, 145
+
 def factorial(n):
     if n == 1:
         return 1
