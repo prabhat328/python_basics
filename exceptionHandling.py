@@ -1,4 +1,4 @@
-# Practical 9
+# Division by zero
 
 a = int(input("Enter divident:\n"))
 b = int(input("Enter divisor:\n"))
