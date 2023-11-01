@@ -1,15 +1,3 @@
-# st = "Hello World"
-# print((st + " ") * 2)
-# print(st * 2)
-
-
-# pack = "prabhat", "anand", "tiwari", "fy bscit", "079"
-# (first, middle, last, *detail) = pack
-# print(detail)
-# print(detail[0])
-# print(pack[2])
-# print(type(pack))
-
 num = int(input("Enter a no to check if it is a strong no.:\n"))
 og_num = num
 fact = 0
