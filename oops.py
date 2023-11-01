@@ -1,5 +1,3 @@
-# Practical 7
-
 # A
 class practical:
   def __init__(tp, fn, ln, rn):
