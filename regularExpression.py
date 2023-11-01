@@ -1,5 +1,3 @@
-# Practical 6
-
 # A
 import re
 stri = "Hello World123@#$%"
