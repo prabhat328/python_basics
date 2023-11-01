@@ -1,6 +1,6 @@
-# Practical 4
+# List and Tuple
 
-# QA
+# A
 lis = [2, 3, 'a', 4, 'p']
 # accessing
 print(lis)
@@ -27,7 +27,7 @@ del lis[0]
 print(lis)
 
 
-# QB
+# B
 tup = (0, 7, 'p', 9, 't')
 # accessing
 print(tup)
