@@ -1,5 +1,3 @@
-# Practical 8
-
 # A
 import tkinter as tk
 root = tk.Tk()
