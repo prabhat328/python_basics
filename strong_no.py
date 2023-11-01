@@ -1,8 +1,8 @@
-num = int(input("Enter a no to check if it is a strong no.:\n"))
+num = int(input("Enter a no. to check if it is a strong no.:\n"))
 og_num = num
 fact = 0
 def factorial(n):
-    if n == 0:
+    if n == 1:
         return 1
     else:
         return (n * factorial(n-1))
