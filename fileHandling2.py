@@ -1,6 +1,3 @@
-# Practical 5
-
-
 # creating a file and writing in it
 writing = open("new_writing.txt", 'w')
 writing.write("Created a new file to write something")
